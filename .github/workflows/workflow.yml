@@ -14,4 +14,4 @@ jobs:
     - name: output the memory
       run: |
         echo ${{ steps.hello.outputs.memory }}
-        echo "totoal memory successfully output"
+        echo "total memory successfully output"
