@@ -13,6 +13,6 @@ jobs:
         myInput: 'Dai'
     - name: output the memory
       run: |
-        echo ${{ steps.hello.outputs.memory }}
-        # echo ${{ steps.hello.memory }}
+        # echo ${{ steps.hello.outputs.memory }}
+        echo ${memory}
         echo "total memory successfully output"
